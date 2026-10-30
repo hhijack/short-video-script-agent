@@ -1,0 +1,75 @@
+{
+  "model": "mock",
+  "request": {
+    "topic": "量子计算机维护 vlog",
+    "audience": "科技爱好者",
+    "platform": "B站",
+    "target_duration_sec": 45,
+    "style": "专业讲解"
+  },
+  "started_at": "2026-10-30T00:19:01",
+  "finished_at": "2026-10-30T00:19:01",
+  "max_tool_calls": 12,
+  "tool_calls_used": 2,
+  "final_status": "incomplete_no_material",
+  "final_reason": "改写查询后仍无任何素材命中，素材库无法支撑该主题",
+  "steps": [
+    {
+      "step": 1,
+      "action_type": "call_tool",
+      "tool": "search_materials",
+      "tool_args": {
+        "query": "量子计算机维护 vlog",
+        "top_k": 5
+      },
+      "decision_basis": "起稿前先检索素材库，确定有哪些可用产品事实与效果数据",
+      "observation_summary": "检索无结果（0 条命中）",
+      "observation": {
+        "ok": true,
+        "tool": "search_materials",
+        "args": {
+          "query": "量子计算机维护 vlog",
+          "top_k": 5
+        },
+        "result": {
+          "query": "量子计算机维护 vlog",
+          "hit_count": 0,
+          "hits": []
+        }
+      }
+    },
+    {
+      "step": 2,
+      "action_type": "call_tool",
+      "tool": "search_materials",
+      "tool_args": {
+        "query": "量子计算机维护 视频日志",
+        "top_k": 5
+      },
+      "decision_basis": "首次检索无结果，改写查询词为「量子计算机维护 视频日志」再检索一次",
+      "observation_summary": "检索无结果（0 条命中）",
+      "observation": {
+        "ok": true,
+        "tool": "search_materials",
+        "args": {
+          "query": "量子计算机维护 视频日志",
+          "top_k": 5
+        },
+        "result": {
+          "query": "量子计算机维护 视频日志",
+          "hit_count": 0,
+          "hits": []
+        }
+      }
+    },
+    {
+      "step": 3,
+      "action_type": "finish",
+      "decision_basis": "改写查询后仍无任何素材命中，素材库无法支撑该主题",
+      "final_status": "incomplete_no_material",
+      "questions": [
+        "请提供该主题的产品素材，或更换主题"
+      ]
+    }
+  ]
+}

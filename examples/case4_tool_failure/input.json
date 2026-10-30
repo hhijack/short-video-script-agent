@@ -1,0 +1,16 @@
+{
+  "name": "case4_tool_failure",
+  "description": "工具失败：向 estimate_duration 注入持续故障，模型重试一次仍失败，以 incomplete_tool_failure 明确结束，不伪造时长。",
+  "request": {
+    "topic": "映记 新手 出片",
+    "audience": "短视频新手",
+    "platform": "抖音",
+    "target_duration_sec": 30,
+    "style": "轻松口播"
+  },
+  "model": "mock",
+  "inject_failures": {
+    "estimate_duration": 99
+  },
+  "max_tool_calls": 12
+}

@@ -1,0 +1,51 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.4, pytest-9.2.0, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /tmp/svsa
+plugins: anyio-4.15.1, typeguard-4.4.4
+collecting ... collected 42 items
+
+tests/test_agent_scenarios.py::test_case1_normal_generation_with_compression PASSED [  2%]
+tests/test_agent_scenarios.py::test_case2_missing_duration_requests_info PASSED [  4%]
+tests/test_agent_scenarios.py::test_case3_no_material_rewrites_then_asks PASSED [  7%]
+tests/test_agent_scenarios.py::test_case4_tool_failure_reports_clearly PASSED [  9%]
+tests/test_agent_scenarios.py::test_step_limit_returns_explicit_incomplete PASSED [ 11%]
+tests/test_agent_scenarios.py::test_step_limit_default_is_configurable PASSED [ 14%]
+tests/test_agent_scenarios.py::test_real_model_requires_env PASSED       [ 16%]
+tests/test_agent_scenarios.py::test_real_model_base_url_normalization PASSED [ 19%]
+tests/test_agent_scenarios.py::test_parse_valid_action PASSED            [ 21%]
+tests/test_agent_scenarios.py::test_parse_fenced_action PASSED           [ 23%]
+tests/test_agent_scenarios.py::test_parse_invalid_action_raises PASSED   [ 26%]
+tests/test_agent_scenarios.py::test_rewrite_query PASSED                 [ 28%]
+tests/test_agent_scenarios.py::test_normalize_colloquial_status_and_string_risks PASSED [ 30%]
+tests/test_agent_scenarios.py::test_normalize_valid_risks_list_untouched PASSED [ 33%]
+tests/test_agent_scenarios.py::test_normalize_non_enum_status_mapped PASSED [ 35%]
+tests/test_agent_scenarios.py::test_normalize_non_enum_status_without_output PASSED [ 38%]
+tests/test_agent_scenarios.py::test_parse_finish_attaches_normalization_record PASSED [ 40%]
+tests/test_agent_scenarios.py::test_parse_finish_clean_output_no_fixes PASSED [ 42%]
+tests/test_agent_scenarios.py::test_real_model_name_carries_model_id PASSED [ 45%]
+tests/test_real_model_live.py::test_live_real_model_case1_protocol SKIPPED [ 47%]
+tests/test_real_model_live.py::test_live_real_model_missing_duration_requests_info SKIPPED [ 50%]
+tests/test_tools.py::test_search_hits_all_materials PASSED               [ 52%]
+tests/test_tools.py::test_search_empty_then_rewritten_query_hits PASSED  [ 54%]
+tests/test_tools.py::test_search_irrelevant_topic_empty PASSED           [ 57%]
+tests/test_tools.py::test_search_validates_args PASSED                   [ 59%]
+tests/test_tools.py::test_read_material_returns_full_text PASSED         [ 61%]
+tests/test_tools.py::test_read_unknown_material_errors PASSED            [ 64%]
+tests/test_tools.py::test_estimate_duration_math PASSED                  [ 66%]
+tests/test_tools.py::test_estimate_duration_min_scene_floor PASSED       [ 69%]
+tests/test_tools.py::test_estimate_duration_rejects_bad_args PASSED      [ 71%]
+tests/test_tools.py::test_check_rules_pass_on_compliant_script PASSED    [ 73%]
+tests/test_tools.py::test_check_rules_r1_duration_over PASSED            [ 76%]
+tests/test_tools.py::test_check_rules_r2_banned_word PASSED              [ 78%]
+tests/test_tools.py::test_check_rules_r3_unsupported_effect_claim_is_violation PASSED [ 80%]
+tests/test_tools.py::test_check_rules_r3_supported_claim_passes PASSED   [ 83%]
+tests/test_tools.py::test_check_rules_r3_claim_without_any_citation PASSED [ 85%]
+tests/test_tools.py::test_check_rules_r4_brand_scene_needs_citation PASSED [ 88%]
+tests/test_tools.py::test_check_rules_r5_unknown_material_id PASSED      [ 90%]
+tests/test_tools.py::test_check_rules_r6_speed PASSED                    [ 92%]
+tests/test_tools.py::test_injected_failure_observation PASSED            [ 95%]
+tests/test_tools.py::test_unknown_tool_name PASSED                       [ 97%]
+tests/test_tools.py::test_set_failures_rejects_unknown_tool PASSED       [100%]
+
+======================== 40 passed, 2 skipped in 0.07s =========================

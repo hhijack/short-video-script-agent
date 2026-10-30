@@ -1,0 +1,26 @@
+{
+  "model": "mock",
+  "request": {
+    "topic": "映记 新手 出片",
+    "audience": "短视频新手",
+    "platform": "抖音",
+    "style": "轻松口播"
+  },
+  "started_at": "2026-10-30T00:19:01",
+  "finished_at": "2026-10-30T00:19:01",
+  "max_tool_calls": 12,
+  "tool_calls_used": 0,
+  "final_status": "incomplete_missing_info",
+  "final_reason": "缺少关键信息：目标时长未提供，无法进行时长估算与约束检查",
+  "steps": [
+    {
+      "step": 1,
+      "action_type": "finish",
+      "decision_basis": "缺少关键信息：目标时长未提供，无法进行时长估算与约束检查",
+      "final_status": "incomplete_missing_info",
+      "questions": [
+        "请提供目标时长（秒），例如 30"
+      ]
+    }
+  ]
+}

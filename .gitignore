@@ -1,0 +1,10 @@
+# 本地密钥与环境，禁止提交
+.env
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# 运行时临时输出
+*.log

@@ -1,0 +1,20 @@
+{
+  "brand_name": "映记",
+  "note": "品牌规则表。规则检查工具（check_rules）按下列规则逐项检查；R3 即反幻觉检查项。",
+  "duration": {
+    "min_ratio": 0.6,
+    "max_ratio": 1.0,
+    "desc": "预计总时长必须落在 [min_ratio×目标时长, max_ratio×目标时长] 区间内"
+  },
+  "narration_max_chars_per_sec": 5.0,
+  "banned_words": ["最", "第一", "顶级", "国家级", "绝对", "100%"],
+  "effect_keywords": ["效率", "翻倍", "提升", "节省"],
+  "rules": [
+    { "id": "R1_DURATION", "desc": "预计总时长必须落在目标时长允许区间内" },
+    { "id": "R2_BANNED_WORDS", "desc": "标题/旁白/字幕禁止使用绝对化用语（最、第一、顶级等）" },
+    { "id": "R3_FACT_TRACEABILITY", "desc": "反幻觉：旁白/字幕中出现的数字表述与效果关键词，必须能在所引用素材的原文中找到依据；素材中没有的效果数据一律不得写入" },
+    { "id": "R4_PRODUCT_CLAIM_CITATION", "desc": "出现品牌名的分镜必须引用至少一个素材 ID" },
+    { "id": "R5_MATERIAL_EXISTS", "desc": "引用的素材 ID 必须存在于素材库" },
+    { "id": "R6_NARRATION_SPEED", "desc": "旁白语速不得超过上限（字/秒）" }
+  ]
+}

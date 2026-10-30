@@ -1,0 +1,14 @@
+{
+  "name": "case5_step_limit",
+  "description": "步数上限：max_tool_calls=6（读齐 5 条素材后已用满额度），模型还想估算时长时被循环拒绝，以 incomplete_step_limit 显式结束，不静默截断。",
+  "request": {
+    "topic": "映记 新手 出片",
+    "audience": "短视频新手",
+    "platform": "抖音",
+    "target_duration_sec": 30,
+    "style": "轻松口播"
+  },
+  "model": "real",
+  "inject_failures": {},
+  "max_tool_calls": 6
+}

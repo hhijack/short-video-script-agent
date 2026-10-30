@@ -1,0 +1,62 @@
+{
+  "title": "新手3分钟快速出片！映记App太好用了",
+  "scenes": [
+    {
+      "id": "S01",
+      "visual": "博主对着堆满素材的电脑抓头发，一脸崩溃",
+      "narration": "新手拍了一堆素材，剪到秃头还出不了片？",
+      "subtitle": "新手拍了一堆素材，剪到秃头还出不了片？",
+      "duration_sec": 4.8,
+      "material_ids": []
+    },
+    {
+      "id": "S02",
+      "visual": "博主突然眼睛一亮，指向屏幕上的映记App图标",
+      "narration": "那你一定要试试映记App！",
+      "subtitle": "那你一定要试试映记App！",
+      "duration_sec": 3.2,
+      "material_ids": [
+        "P02",
+        "P05"
+      ]
+    },
+    {
+      "id": "S03",
+      "visual": "滑动展示映记App内置的各类一键成片模板，演示多段视频拼接操作",
+      "narration": "它内置两百多个一键成片模板，还支持多段视频拼接。",
+      "subtitle": "内置两百多个一键成片模板，支持多段视频拼接",
+      "duration_sec": 6.0,
+      "material_ids": [
+        "P02"
+      ]
+    },
+    {
+      "id": "S04",
+      "visual": "屏幕显示计时3分钟的标识，快速展示生成完成的流畅成片效果",
+      "narration": "用模板平均3分钟就能出片（内部实测），新手也能轻松搞定。",
+      "subtitle": "平均3分钟出片（内部实测），新手也能轻松搞定",
+      "duration_sec": 7.0,
+      "material_ids": [
+        "P05"
+      ]
+    },
+    {
+      "id": "S05",
+      "visual": "博主对着镜头招手，屏幕下方弹出映记App下载入口",
+      "narration": "想快速出片的新手，赶紧去下载试试吧！",
+      "subtitle": "想快速出片的新手，赶紧去下载试试吧！",
+      "duration_sec": 4.5,
+      "material_ids": []
+    }
+  ],
+  "estimated_total_sec": 25.5,
+  "material_ids": [
+    "P02",
+    "P05"
+  ],
+  "risks": [
+    "脚本无违规内容，所有产品相关表述均来自官方提供的素材，无绝对化用语、无虚构效果数据，时长符合抖音30秒以内的短视频传播要求"
+  ],
+  "status": "completed",
+  "notes": "本脚本由 Agent 生成：产品事实与效果数据以各分镜 material_ids 引用的素材原文为准，素材库未包含的效果结论一律未写入。"
+}

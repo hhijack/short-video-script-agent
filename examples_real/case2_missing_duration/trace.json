@@ -1,0 +1,27 @@
+{
+  "model": "real:doubao-seed-2.1-lite",
+  "request": {
+    "topic": "映记 新手 出片",
+    "audience": "短视频新手",
+    "platform": "抖音",
+    "style": "轻松口播"
+  },
+  "started_at": "2026-10-30T23:53:34",
+  "finished_at": "2026-10-30T23:53:59",
+  "max_tool_calls": 12,
+  "tool_calls_used": 0,
+  "final_status": "incomplete_missing_info",
+  "final_reason": "当前请求缺少脚本创作必需的关键参数目标时长（target_duration_sec），不得自行假定默认值，需用户补充后才能继续创作",
+  "steps": [
+    {
+      "step": 1,
+      "action_type": "finish",
+      "decision_basis": "当前请求缺少脚本创作必需的关键参数目标时长（target_duration_sec），不得自行假定默认值，需用户补充后才能继续创作",
+      "final_status": "incomplete_missing_info",
+      "questions": [
+        "请提供该短视频脚本的目标时长（单位：秒）"
+      ],
+      "output_normalization": []
+    }
+  ]
+}

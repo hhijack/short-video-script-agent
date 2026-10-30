@@ -1,0 +1,72 @@
+{
+  "title": "新手出片神器！映记App3分钟搞定短视频",
+  "scenes": [
+    {
+      "id": "S1",
+      "visual": "博主对着手机/电脑皱眉头，屏幕上堆满未剪辑的短视频素材文件夹",
+      "narration": "拍了一堆素材，剪半天都出不了片？",
+      "subtitle": "拍了一堆素材，剪半天都出不了片？",
+      "duration_sec": 4.0,
+      "material_ids": []
+    },
+    {
+      "id": "S2",
+      "visual": "博主眼睛一亮，拿起手机展示映记App的桌面图标",
+      "narration": "别愁，试试映记App，新手也能快速出片！",
+      "subtitle": "别愁，试试映记App，新手也能快速出片！",
+      "duration_sec": 5.0,
+      "material_ids": [
+        "P01"
+      ]
+    },
+    {
+      "id": "S3",
+      "visual": "手机屏幕录屏：滑动展示映记App内置的各类一键成片模板",
+      "narration": "内置两百多个一键成片模板，选好素材直接套用",
+      "subtitle": "内置两百多个一键成片模板，选好素材直接套用",
+      "duration_sec": 5.2,
+      "material_ids": [
+        "P02"
+      ]
+    },
+    {
+      "id": "S4",
+      "visual": "手机屏幕录屏：导入视频后自动生成匹配的字幕效果",
+      "narration": "还能自动生成字幕，不用逐字打，省超多时间",
+      "subtitle": "还能自动生成字幕，不用逐字打，省超多时间",
+      "duration_sec": 5.0,
+      "material_ids": [
+        "P01"
+      ]
+    },
+    {
+      "id": "S5",
+      "visual": "动画弹出计时标识，显示「平均3分钟出片 2026内部实测」字样",
+      "narration": "用模板平均3分钟出片，2026年内部实测",
+      "subtitle": "用模板平均3分钟出片，2026年内部实测",
+      "duration_sec": 5.0,
+      "material_ids": [
+        "P05"
+      ]
+    },
+    {
+      "id": "S6",
+      "visual": "手机展示多段素材自动拼接成完整视频，最后跳转抖音发布界面",
+      "narration": "多段视频自动拼接，新手也能快速发抖音！",
+      "subtitle": "多段视频自动拼接，新手也能快速发抖音！",
+      "duration_sec": 4.8,
+      "material_ids": [
+        "P02"
+      ]
+    }
+  ],
+  "estimated_total_sec": 29.0,
+  "material_ids": [
+    "P01",
+    "P02",
+    "P05"
+  ],
+  "risks": [],
+  "status": "completed",
+  "notes": "本脚本由 Agent 生成：产品事实与效果数据以各分镜 material_ids 引用的素材原文为准，素材库未包含的效果结论一律未写入。"
+}

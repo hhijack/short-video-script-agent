@@ -1,0 +1,14 @@
+{
+  "name": "case3_no_material",
+  "description": "无素材：主题与素材库完全无关，首次检索 0 命中，模型改写查询词再检索，仍 0 命中，以 incomplete_no_material 结束并请求补充素材。",
+  "request": {
+    "topic": "量子计算机维护 vlog",
+    "audience": "科技爱好者",
+    "platform": "B站",
+    "target_duration_sec": 45,
+    "style": "专业讲解"
+  },
+  "model": "mock",
+  "inject_failures": {},
+  "max_tool_calls": 12
+}

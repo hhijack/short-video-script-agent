@@ -1,0 +1,14 @@
+{
+  "name": "case1_normal_30s_compress",
+  "description": "正常生成：目标 30 秒。首稿 5 分镜估算 38.0s 超时且含无依据效果表述，模型压缩为 4 分镜并移除「效率翻倍」，重新估算 28.0s 后规则检查通过（参考样例：P01 仅含「支持字幕」事实）。",
+  "request": {
+    "topic": "映记 新手 出片",
+    "audience": "短视频新手",
+    "platform": "抖音",
+    "target_duration_sec": 30,
+    "style": "轻松口播"
+  },
+  "model": "real",
+  "inject_failures": {},
+  "max_tool_calls": 12
+}

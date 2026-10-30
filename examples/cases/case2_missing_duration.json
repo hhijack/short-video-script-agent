@@ -1,0 +1,12 @@
+{
+  "name": "case2_missing_duration",
+  "description": "缺关键信息：未提供目标时长。模型不做猜测，立即以 incomplete_missing_info 结束并请求用户补充。",
+  "request": {
+    "topic": "映记 新手 出片",
+    "audience": "短视频新手",
+    "platform": "抖音",
+    "style": "轻松口播"
+  },
+  "model": "mock",
+  "inject_failures": {}
+}
